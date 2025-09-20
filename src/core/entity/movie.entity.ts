@@ -45,6 +45,7 @@ export class MovieEntity extends BaseEntity {
       updatedAt: this.updatedAt,
     };
   }
+
   addVideo(video: VideoEntity): void {
     this.video = video;
   }
